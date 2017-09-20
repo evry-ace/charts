@@ -1,0 +1,4 @@
+apiVersion: v1
+description: A Helm chart for running .NET Core applications on Kubernetes
+name: dotnet-core
+version: 0.1.0

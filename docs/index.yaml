@@ -1,0 +1,12 @@
+apiVersion: v1
+entries:
+  dotnet-core:
+  - apiVersion: v1
+    created: 2017-09-20T23:03:56.629314973+02:00
+    description: A Helm chart for running .NET Core applications on Kubernetes
+    digest: 34a1efdbf099840bed83cfaa29ff75469019c2623044b99f81d02a3af478207f
+    name: dotnet-core
+    urls:
+    - https://evry-ace.github.io/charts/dotnet-core-0.1.0.tgz
+    version: 0.1.0
+generated: 2017-09-20T23:03:56.628812451+02:00
