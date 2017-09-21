@@ -26,7 +26,7 @@ ingress:
     # - secretName: chart-example-tls
     #   hosts:
     #     - chart-example.local
-environment: {}
+environment: []
   # Environment variable definitions
   # - name: KEY
   #   value: value

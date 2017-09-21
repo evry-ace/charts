@@ -32,7 +32,9 @@ spec:
           env:
             - name: ASPNETCORE_ENVIRONMENT
               value: {{ .Values.aspnetcoreEnvironment }}
+          {{- if .Values.environment }}
 {{ toYaml .Values.environment | indent 12 }}
+          {{- end }}
           resources:
 {{ toYaml .Values.resources | indent 12 }}
     {{- if .Values.nodeSelector }}

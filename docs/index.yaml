@@ -2,7 +2,15 @@ apiVersion: v1
 entries:
   dotnet-core:
   - apiVersion: v1
-    created: 2017-09-21T22:42:28.359108437+02:00
+    created: 2017-09-21T23:19:53.41392615+02:00
+    description: A Helm chart for running .NET Core applications on Kubernetes
+    digest: 84f8ab2fd7f80b249eb8f0715765bd5ffff61fe422f6045ef6d2b6a46a04d0a9
+    name: dotnet-core
+    urls:
+    - https://evry-ace.github.io/charts/dotnet-core-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v1
+    created: 2017-09-21T23:19:53.413635764+02:00
     description: A Helm chart for running .NET Core applications on Kubernetes
     digest: 7fa2cb1fdea9923c624ca82d9e4b7d9c199fc5800f7a805ab6da3172e6156cdc
     name: dotnet-core
@@ -10,11 +18,11 @@ entries:
     - https://evry-ace.github.io/charts/dotnet-core-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
-    created: 2017-09-21T22:42:28.35886556+02:00
+    created: 2017-09-21T23:19:53.413391243+02:00
     description: A Helm chart for running .NET Core applications on Kubernetes
     digest: 34a1efdbf099840bed83cfaa29ff75469019c2623044b99f81d02a3af478207f
     name: dotnet-core
     urls:
     - https://evry-ace.github.io/charts/dotnet-core-0.1.0.tgz
     version: 0.1.0
-generated: 2017-09-21T22:42:28.358204448+02:00
+generated: 2017-09-21T23:19:53.412940455+02:00
