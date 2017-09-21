@@ -29,6 +29,10 @@ spec:
             httpGet:
               path: /
               port: {{ .Values.service.internalPort }}
+          env:
+            - name: ASPNETCORE_ENVIRONMENT
+              value: {{ .Values.aspnetcoreEnvironment }}
+{{ toYaml .Values.environment | indent 12 }}
           resources:
 {{ toYaml .Values.resources | indent 12 }}
     {{- if .Values.nodeSelector }}

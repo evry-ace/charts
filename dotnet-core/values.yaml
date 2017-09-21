@@ -1,13 +1,15 @@
 # Default values for dotnet-core.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
+aspnetcoreEnvironment: Production
+
 replicaCount: 1
 image:
   repository: microsoft/dotnet-samples
   tag: dotnetapp-stretch
   pullPolicy: IfNotPresent
 service:
-  name: nginx
+  name: dotnet
   type: ClusterIP
   externalPort: 80
   internalPort: 80
@@ -24,6 +26,10 @@ ingress:
     # - secretName: chart-example-tls
     #   hosts:
     #     - chart-example.local
+environment: {}
+  # Environment variable definitions
+  # - name: KEY
+  #   value: value
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
   # choice for the user. This also increases chances charts run on environments with little
